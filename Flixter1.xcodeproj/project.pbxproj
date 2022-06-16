@@ -17,6 +17,7 @@
 		44976BA1285BC8460010530B /* Flixter1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44976BA0285BC8460010530B /* Flixter1Tests.m */; };
 		44976BAB285BC8460010530B /* Flixter1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44976BAA285BC8460010530B /* Flixter1UITests.m */; };
 		44976BAD285BC8460010530B /* Flixter1UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44976BAC285BC8460010530B /* Flixter1UITestsLaunchTests.m */; };
+		44976BBB285BCB8C0010530B /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44976BBA285BCB8C0010530B /* MovieViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		44976BA6285BC8460010530B /* Flixter1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Flixter1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44976BAA285BC8460010530B /* Flixter1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flixter1UITests.m; sourceTree = "<group>"; };
 		44976BAC285BC8460010530B /* Flixter1UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flixter1UITestsLaunchTests.m; sourceTree = "<group>"; };
+		44976BB9285BCB8C0010530B /* MovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		44976BBA285BCB8C0010530B /* MovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				44976B8A285BC8450010530B /* ViewController.h */,
 				44976B8B285BC8450010530B /* ViewController.m */,
 				44976B8D285BC8450010530B /* Main.storyboard */,
+				44976BB9285BCB8C0010530B /* MovieViewController.h */,
+				44976BBA285BCB8C0010530B /* MovieViewController.m */,
 				44976B90285BC8460010530B /* Assets.xcassets */,
 				44976B92285BC8460010530B /* LaunchScreen.storyboard */,
 				44976B95285BC8460010530B /* Info.plist */,
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44976B8C285BC8450010530B /* ViewController.m in Sources */,
+				44976BBB285BCB8C0010530B /* MovieViewController.m in Sources */,
 				44976B86285BC8450010530B /* AppDelegate.m in Sources */,
 				44976B97285BC8460010530B /* main.m in Sources */,
 				44976B89285BC8450010530B /* SceneDelegate.m in Sources */,
